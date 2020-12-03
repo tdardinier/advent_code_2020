@@ -1,5 +1,4 @@
-M = [[x == "#" for x in l[:-1]] for l in open("input.txt", "r").readlines()]
-
+M = [[x == "#" for x in l[:-1]] for l in open("3_input.txt", "r").readlines()]
 (slopes, m) = ([(1, 1), (5, 1), (7, 1), (1, 2), (3, 1)], 1)
 
 for (sx, sy) in slopes:
